@@ -4,10 +4,10 @@ ini_set('display_errors', 1);
 // Verificar si el formulario fue enviado por POST
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-$servername = "sql206.infinityfree.com";
-$username = "if0_38917775";
-$password = "DPtJJ4ovJmg6";
-$dbname = "if0_38917775_basededatos";
+$servername = "xxxxxx";
+$username = "xxxxxx";
+$password = "xxxxxxx";
+$dbname = "xxxxxx";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
